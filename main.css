@@ -1,0 +1,86 @@
+.registration-page {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    border: solid 1px gray;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px rgb(153, 163, 172);
+    padding: 2.5em;
+    width: 360px;
+    height: 500px;
+    background-color: white;
+    margin: auto;
+    margin-top: 10%;
+}
+
+h1 {
+    font-size: 22pt;
+    margin-bottom: 30px;
+}
+
+button {
+    background-color: #0080FF;
+    color: white;
+    transition: ease-in-out 400ms;
+    border-radius: 3px;
+}
+
+button:hover {
+    background-color: rgb(133, 191, 250);
+    transition: ease-in-out 400ms;
+}
+
+#submitButton {
+    font-size: 12pt;
+    height: 40px;
+    border: 0.5px solid rgb(104, 102, 102);
+    border-radius: 5px;
+}
+
+.nav-bar {
+    width: 100vw;
+    height: 70px;
+    background-color: white;
+    box-shadow: 0px 0px 20px 0px rgb(153, 163, 172);
+}
+
+.nav-bar button {
+    float:right;
+    background-color: #0080FF;
+    font-size: 15pt;
+    padding: 10px;
+    height: 45px;
+    width: 135px;
+    margin-top: 8px;
+    margin-right: 30px;
+    border: 1px solid black;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    font-size: 12pt;
+    margin-bottom: 30px;
+    padding: 10px;
+    border-radius: 3px;
+    border-style: solid;
+    border: 1px solid black;
+    box-shadow: 0;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.column {
+    flex: 50%;
+    padding: 65px;
+}
+
+body {
+    background-color: #64B7FF;
+    margin: 0;
+}
